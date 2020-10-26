@@ -1,0 +1,33 @@
+:root {
+    --background-color-1: #7f0909;
+
+}
+
+* {
+    margin: 2;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+header {
+    padding: 5px;
+
+}
+.character {
+    
+}
+
+header,
+footer {
+    background-color: var(--background-color-1);
+    text-align: center;
+}
