@@ -3,8 +3,8 @@
 
 }
 
-* {
-    margin: 2;
+{
+    margin: 2px;
     box-sizing: border-box;
 }
 
@@ -15,6 +15,9 @@ body {
 }
 
 main {
+    display: flex;
+    align-content: center;
+    justify-content: center;
     flex-grow: 1;
 }
 
@@ -22,12 +25,24 @@ header {
     padding: 5px;
 
 }
-.character {
+.character{
     
-}
 
+}
+ form {
+    align-content: center;
+ }
+
+ li{
+    list-style: none;
+    border-width: 1px;
+    border-style: double;
+    border: #7f0909;
+    padding: 1px;
+ }
 header,
 footer {
     background-color: var(--background-color-1);
     text-align: center;
+
 }
