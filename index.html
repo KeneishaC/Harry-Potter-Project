@@ -7,38 +7,46 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script defer src="js/script.js"></script>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Harry Potter Characters</title>
 </head>
 
 <body>
     <header>
         <h1>The Characters of Harry Potter</h1>
-        <img src="" alt="">
+
     </header>
     <form>
-        <input id="search" type="text" placeholder="Character" />
+        <input id="search" type="text" placeholder="Search your favorite" />
         <input type="submit" value="Find!" />
     </form>
     <main>
-        <section>
+        <section class='outline'>
+            <div>
+                <img id='image' src="" alt="">
+            </div>
+
+        </section>
+
+        <div class="characters">
             <ul class="characters">
                 <li class="characters">
-                    <h2>Name:</h2>
+                    <p><strong>Name:</p></strong>
                     <p id='name'></p>
-                    <img id='image' src="" alt="">
-                    <p>House</p>
+                    <p><strong>House:</strong></p>
                     <p id='house'></p>
-                    <p>Species</p>
+                    <p><strong>Species:</strong> </p>
                     <p id='species'></p>
-                    <p>Ancestry</p>
+                    <p><strong> Ancestry:</strong>
+                    </p>
                     <p id='ancestry'></p>
-                    <p>Actor</p>
+                    <p><strong>Actor:</strong>
+                    </p>
                     <p id='actor'></p>
 
                 </li>
             </ul>
-        </section>
+        </div>
     </main>
     <footer>
         Copyright 2020

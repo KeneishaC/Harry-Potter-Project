@@ -1,9 +1,13 @@
 :root {
     --background-color-1: #7f0909;
+    --bacground-color-2: #bdb9b9;
+    @import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+    
 
 }
 
-{
+* {
     margin: 2px;
     box-sizing: border-box;
 }
@@ -18,31 +22,52 @@ main {
     display: flex;
     align-content: center;
     justify-content: center;
+    flex-wrap: wrap;
     flex-grow: 1;
 }
 
 header {
-    padding: 5px;
+    padding: 3%;
+    font-size: 25px;
+    color: var(--bacground-color-2);
+    font-family: 'Jolly Lodger', cursive;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    border-radius: 15%;
 
 }
-.character{
-    
 
+form {
+    padding: 5%;
+    align-items: center;
 }
- form {
-    align-content: center;
- }
 
- li{
+.outline {
+    border-style: 10px solid;
+}
+
+.characters {
+    border: 1px;
+}
+
+li {
     list-style: none;
     border-width: 1px;
     border-style: double;
     border: #7f0909;
     padding: 1px;
- }
-header,
-footer {
+}
+
+p{
+
+    font-size: 25px;
+}
+
+header, footer {
     background-color: var(--background-color-1);
     text-align: center;
-
+    color: var(--bacground-color-2)
 }

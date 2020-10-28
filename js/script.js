@@ -24,7 +24,8 @@ function characterGetData(event) {
                 //characterInfo = data;
                 //render();
                 for (let i = 0; i < data.length;  i++) {
-                    if (data[i].name.includes(searchInfo)){
+                    if (data[i].name.toLowerCase().includes
+                        (searchInfo)){
                         characterInfo = data[i]
                         $name.text(data[i].name)
                         $image.attr('src', data[i].image)
@@ -43,10 +44,5 @@ function characterGetData(event) {
         )
 }
 
- function render() {
-    $name.text(data[0].name)
-    $house.text(data[2].house)
-    $species.text(data[3].species)
-    $ancestry.text(data[4].ancestry)
-    $actor.text(data[5].actor)
- }
+
+
