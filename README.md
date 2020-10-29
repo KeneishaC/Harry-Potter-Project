@@ -13,7 +13,7 @@ This is a very simple search that searches some characters from the Harry Potter
 ![wireframe](./wireframe.png)
 
 ## Getting started 
-[clickHere](#) to see deployed app!
+[clickHere](https://harry-potter-project.vercel.app/) to see deployed app!
 
 ## Future enhancements 
 1. Have a recent search feature
