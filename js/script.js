@@ -1,6 +1,7 @@
 //Constants and State Variables
 const $name = $('#name')
 const $image = $('#image')
+const $outline = $('.outline')
 const $house = $('#house')
 const $species = $('#species')
 const $ancestry = $('#ancestry')
@@ -29,6 +30,7 @@ function characterGetData(event) {
                         characterInfo = data[i]
                         $name.text(data[i].name)
                         $image.attr('src', data[i].image)
+                        $outline.css('visibility', 'visible')
                         $house.text(data[i].house)
                         $species.text(data[i].species)
                         $ancestry.text(data[i].ancestry)
