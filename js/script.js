@@ -42,5 +42,9 @@ function characterGetData(event) {
             }
 
         )
+        $('#search').val('');
 }
+
+
+
 
