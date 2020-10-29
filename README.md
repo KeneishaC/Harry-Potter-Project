@@ -1,4 +1,4 @@
-# Harry Potter 
+# Harry Potter Project
 This is a very simple search that searches some characters from the Harry Potter Series.
 
 ## Technologies Used
