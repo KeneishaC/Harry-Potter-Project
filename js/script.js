@@ -17,7 +17,7 @@ function characterGetData(event) {
 
     const searchInfo = $('#search').val()
     $.ajax({
-            url: `http://hp-api.herokuapp.com/api/characters?q=${searchInfo}`
+            url: `https://hp-api.herokuapp.com/api/characters?q=${searchInfo}`
         })
         .then(
             (data) => {

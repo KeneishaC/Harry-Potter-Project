@@ -83,7 +83,7 @@ input {
 }
 
 .characters {
-   text-align: left;/
+   text-align: left;
 }
 
 form {
@@ -127,7 +127,7 @@ footer{
       margin: 20px 12px 0 12px;
     }
     p {
-      font-size: 20px;
+      font-size: 40px;
       line-height: 24px;
     }
     small {
