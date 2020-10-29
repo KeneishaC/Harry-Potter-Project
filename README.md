@@ -1,16 +1,18 @@
 # Harry Potter Project
-This is a very simple search that searches some characters from the Harry Potter Series.
+This is a very simple search APP that finds characters from the Harry Potter Series.
 
 ## Technologies Used
-- HTML5
-- CSS
-- JavaScript
+- JavaScript(ES6)
 - jQuery
+- HTML5
+- CSS3
 - Google fonts 
 - Harry Potter API
 
 ## Screenshots 
 ![wireframe](./wireframe.png)
+![Before](./before.png)
+![After](./after.png)
 
 ## Getting started 
 [clickHere](https://harry-potter-project.vercel.app/) to see deployed app!

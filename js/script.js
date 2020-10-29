@@ -22,9 +22,7 @@ function characterGetData(event) {
         })
         .then(
             (data) => {
-                //console.log(data)
-                //characterInfo = data;
-                //render();
+            
                 for (let i = 0; i < data.length; i++) {
                     if (data[i].name.toLowerCase().includes(searchInfo.toLowerCase())) {
                         characterInfo = data[i]
@@ -37,7 +35,6 @@ function characterGetData(event) {
                         $actor.text(data[i].actor)
                     }
                 }
-                //return characterInfo;
             },
             (error) => {
                 alert('error')
