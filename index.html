@@ -14,39 +14,35 @@
 <body>
     <header>
         <h1>The Characters of Harry Potter</h1>
-
+        <h3>"It matters not what someone is born, but what they grow to be.” – Albus Dumbledore"</h3>
+        <ul clas="navigation">
+            <li>Books</li>
+            <li>Movies</li>
+        </ul>
     </header>
-    <form>
-        <input id="search" type="text" placeholder="Search your favorite" />
-        <input type="submit" value="Find!" />
-    </form>
+
     <main>
+        <form>
+            <span>
+                <input type="search" type="text" placeholder="Search your favorite" />
+                <input type="submit" value="Find!" />
+            </span>
+        </form>
         <section class='outline'>
-            <div>
-                <img id='image' src="" alt="">
-            </div>
+            <img id='image' src="" alt="">
+        </section class="characters">
 
-        </section>
+        <ul class="characters">
+            <li class="characters">
+                <p id='name'></p>
+                <p id='house'></p>
+                <p id='species'></p>
+                <p id='ancestry'></p>
+                <p id='actor'></p>
 
-        <div class="characters">
-            <ul class="characters">
-                <li class="characters">
-                    <p><strong>Name:</p></strong>
-                    <p id='name'></p>
-                    <p><strong>House:</strong></p>
-                    <p id='house'></p>
-                    <p><strong>Species:</strong> </p>
-                    <p id='species'></p>
-                    <p><strong> Ancestry:</strong>
-                    </p>
-                    <p id='ancestry'></p>
-                    <p><strong>Actor:</strong>
-                    </p>
-                    <p id='actor'></p>
+            </li>
+        </ul>
 
-                </li>
-            </ul>
-        </div>
     </main>
     <footer>
         Copyright 2020

@@ -1,14 +1,13 @@
 :root {
     --background-color-1: #7f0909;
-    --bacground-color-2: #bdb9b9;
+    --bacground-color-2: #e4e3e3;
     @import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
-    
 
 }
 
 * {
-    margin: 2px;
+    margin: 3px;
     box-sizing: border-box;
 }
 
@@ -16,21 +15,29 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-color: var(--bacground-color-2);
+    background-image: ;
 }
 
 main {
     display: flex;
-    align-content: center;
     justify-content: center;
-    flex-wrap: wrap;
     flex-grow: 1;
 }
 
 header {
-    padding: 3%;
+    padding: 2%;
     font-size: 25px;
     color: var(--bacground-color-2);
     font-family: 'Jolly Lodger', cursive;
+    border-radius: 50%;
+}
+
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 img {
@@ -40,18 +47,25 @@ img {
 
 }
 
-form {
-    padding: 5%;
-    align-items: center;
+input {
+    align-content: center;
+    justify-content: center;
+    size: 10px;
 }
 
 .outline {
-    border-style: 10px solid;
+    border-style: 10px solid var(--background-color-1);
 }
 
 .characters {
-    border: 1px;
+    border: 3px;
 }
+
+form {
+    padding: 2%;
+    align-items: center;
+}
+
 
 li {
     list-style: none;
@@ -61,13 +75,16 @@ li {
     padding: 1px;
 }
 
-p{
-
+p {
     font-size: 25px;
 }
 
-header, footer {
+header,
+footer {
     background-color: var(--background-color-1);
     text-align: center;
     color: var(--bacground-color-2)
+}
+footer{
+    height: 15%;
 }

@@ -2,7 +2,7 @@
 This is a very simple search that searches some characters from the Harry Potter Series.
 
 ## Technologies Used
-- HTML
+- HTML5
 - CSS
 - JavaScript
 - jQuery
