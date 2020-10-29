@@ -5,7 +5,7 @@ const $house = $('#house')
 const $species = $('#species')
 const $ancestry = $('#ancestry')
 const $actor = $('#actor')
-let characterInfo, searchText;
+let characterInfo
 
 //Listeners
 $('form').on("submit", characterGetData)
@@ -25,7 +25,7 @@ function characterGetData(event) {
                 //characterInfo = data;
                 //render();
                 for (let i = 0; i < data.length; i++) {
-                    if (data[i].name.toLowerCase().toLowerCase().includes(searchInfo)) {
+                    if (data[i].name.toLowerCase().includes(searchInfo.toLowerCase())) {
                         characterInfo = data[i]
                         $name.text(data[i].name)
                         $image.attr('src', data[i].image)
