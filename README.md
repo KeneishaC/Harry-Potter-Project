@@ -11,7 +11,9 @@ This is a very simple search APP that finds characters from the Harry Potter Ser
 
 ## Screenshots 
 ![wireframe](./wireframe.png)
+
 ![Before](./before.png)
+
 ![After](./after.png)
 
 ## Getting started 
